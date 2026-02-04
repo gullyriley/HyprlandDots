@@ -41,6 +41,7 @@ dotfiles/
 │   ├── pkglist-pacman.txt
 │   └── pkglist-aur.txt
 └── README.md
+```text
 
 ## Notes
 - Monitor configuration may need adjustment per system
