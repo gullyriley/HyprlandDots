@@ -14,64 +14,33 @@ My personal Arch Linux setup using **Hyprland** with a minimal, Wayland-first wo
 - Package lists (pacman + AUR)
 
 ## Structure
-.
-├── config
-│   ├── hypr
-│   │   └── hyprland.conf
-│   ├── kitty
-│   ├── waybar
-│   │   ├── assets
-│   │   │   ├── experimental.png
-│   │   │   ├── line.png
-│   │   │   ├── main.png
-│   │   │   └── zen.png
-│   │   ├── config
-│   │   ├── scripts
-│   │   │   ├── autohide.sh
-│   │   │   ├── colorpicker.sh
-│   │   │   ├── pacman-notify.sh
-│   │   │   ├── refresh.sh
-│   │   │   └── select.sh
-│   │   ├── style.css
-│   │   └── themes
-│   │       ├── default
-│   │       │   ├── config-default
-│   │       │   └── style-default.css
-│   │       ├── experimental
-│   │       │   ├── config-experimental
-│   │       │   └── style-experimental.css
-│   │       ├── line
-│   │       │   ├── config-line
-│   │       │   └── style-line.css
-│   │       └── zen
-│   │           ├── config-zen
-│   │           └── style-zen.css
-│   └── wofi
-│       ├── config
-│       ├── style.css
-│       ├── style-wallpaper.css
-│       ├── style-waybar.css
-│       ├── wallpaper
-│       └── waybar
-├── fonts
-├── pkglist
-├── pkglist-all.txt
-├── pkglist-aur.txt
-├── pkglist-pacman.txt
-├── README.md
-├── screenshots
-│   ├── archbtw.png
-│   ├── desktop.png
-│   ├── waybar.png
-│   └── wofi.png
-├── scripts
-│   └── wallpaper-next.sh
-└── wallpapers
-    ├── archbtw.png
-    ├── linuxvwindows.jpg
-    ├── theusualsus.jpg
-    └── tuxblack.png
-18 directories, 39 files
+```text
+dotfiles/
+├── config/
+│   ├── hypr/
+│   │   └── hyprland.conf
+│   ├── kitty/
+│   ├── waybar/
+│   │   ├── config/
+│   │   ├── themes/
+│   │   ├── scripts/
+│   │   └── assets/
+│   ├── wofi/
+│   └── swaync/
+├── scripts/
+│   └── wallpaper-next.sh
+├── wallpapers/
+│   ├── archbtw.png
+│   ├── tuxblack.png
+│   └── linuxvwindows.jpg
+├── screenshots/
+│   ├── desktop.png
+│   ├── waybar.png
+│   └── wofi.png
+├── pkglist/
+│   ├── pkglist-pacman.txt
+│   └── pkglist-aur.txt
+└── README.md
 
 ## Notes
 - Monitor configuration may need adjustment per system
