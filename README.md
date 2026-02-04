@@ -13,6 +13,9 @@ My personal Arch Linux setup using **Hyprland** with a minimal, Wayland-first wo
 - Wallpapers
 - Package lists (pacman + AUR)
 
+## To Do List
+- SwayNC notifications customization
+
 ## Structure
 ```text
 dotfiles/
