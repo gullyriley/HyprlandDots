@@ -48,7 +48,10 @@ dotfiles/
 - Designed for Arch Linux + Wayland
 - Hardware: MacBook Air 2017 (Intel)
 
-## Keybinds
+<details>
+<summary><b>Keybinds (click to expand)</b></summary>
+
+<br>
 
 **Modifier key:** `Super` (⌘ / Windows key)
 
@@ -127,6 +130,8 @@ dotfiles/
 
 ### Gestures
 - **3-finger horizontal swipe** — switch workspaces
+
+</details>
 
 ## Screenshots
 ![Desktop](screenshots/desktop.png)
