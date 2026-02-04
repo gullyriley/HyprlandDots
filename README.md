@@ -14,13 +14,149 @@ My personal Arch Linux setup using **Hyprland** with a minimal, Wayland-first wo
 - Package lists (pacman + AUR)
 
 ## Structure
-
-
+.
+├── config
+│   ├── hypr
+│   │   └── hyprland.conf
+│   ├── kitty
+│   ├── waybar
+│   │   ├── assets
+│   │   │   ├── experimental.png
+│   │   │   ├── line.png
+│   │   │   ├── main.png
+│   │   │   └── zen.png
+│   │   ├── config
+│   │   ├── scripts
+│   │   │   ├── autohide.sh
+│   │   │   ├── colorpicker.sh
+│   │   │   ├── pacman-notify.sh
+│   │   │   ├── refresh.sh
+│   │   │   └── select.sh
+│   │   ├── style.css
+│   │   └── themes
+│   │       ├── default
+│   │       │   ├── config-default
+│   │       │   └── style-default.css
+│   │       ├── experimental
+│   │       │   ├── config-experimental
+│   │       │   └── style-experimental.css
+│   │       ├── line
+│   │       │   ├── config-line
+│   │       │   └── style-line.css
+│   │       └── zen
+│   │           ├── config-zen
+│   │           └── style-zen.css
+│   └── wofi
+│       ├── config
+│       ├── style.css
+│       ├── style-wallpaper.css
+│       ├── style-waybar.css
+│       ├── wallpaper
+│       └── waybar
+├── fonts
+├── pkglist
+├── pkglist-all.txt
+├── pkglist-aur.txt
+├── pkglist-pacman.txt
+├── README.md
+├── screenshots
+│   ├── archbtw.png
+│   ├── desktop.png
+│   ├── waybar.png
+│   └── wofi.png
+├── scripts
+│   └── wallpaper-next.sh
+└── wallpapers
+    ├── archbtw.png
+    ├── linuxvwindows.jpg
+    ├── theusualsus.jpg
+    └── tuxblack.png
+18 directories, 39 files
 
 ## Notes
 - Monitor configuration may need adjustment per system
 - Designed for Arch Linux + Wayland
 - Hardware: MacBook Air 2017 (Intel)
+
+## Keybinds
+
+**Modifier key:** `Super` (⌘ / Windows key)
+
+### Applications
+| Keybind | Action |
+|-------|-------|
+| Super + Space | Open terminal (kitty) |
+| Super + R | Application launcher (wofi) |
+| Super + E | File manager (Thunar) |
+| Super + W | Cycle wallpaper |
+| Super + S | Screenshot (select area) |
+| Super + Shift + S | Screenshot (entire screen) |
+| Super + Ctrl + S | Screenshot to clipboard |
+
+---
+
+### Window Management
+| Keybind | Action |
+|-------|-------|
+| Super + Q | Close focused window |
+| Super + F | Toggle fullscreen |
+| Super + V | Toggle floating window |
+| Super + P | Toggle pseudo-tiling (dwindle) |
+| Super + J | Toggle split orientation (dwindle) |
+
+---
+
+### Focus Movement
+| Keybind | Action |
+|-------|-------|
+| Super + ← | Focus window left |
+| Super + → | Focus window right |
+| Super + ↑ | Focus window up |
+| Super + ↓ | Focus window down |
+
+---
+
+### Move Windows
+| Keybind | Action |
+|-------|-------|
+| Super + Shift + ← | Move window left |
+| Super + Shift + → | Move window right |
+| Super + Shift + ↑ | Move window up |
+| Super + Shift + ↓ | Move window down |
+
+---
+
+### Workspaces
+| Keybind | Action |
+|-------|-------|
+| Super + 1–9 | Switch to workspace 1–9 |
+| Super + 0 | Switch to workspace 10 |
+| Super + Shift + 1–9 | Move window to workspace 1–9 |
+| Super + Shift + 0 | Move window to workspace 10 |
+
+---
+
+### Mouse
+| Keybind | Action |
+|-------|-------|
+| Super + Left Click | Move window |
+| Super + Right Click | Resize window |
+
+---
+
+### System Controls
+| Keybind | Action |
+|-------|-------|
+| XF86AudioRaiseVolume | Volume up |
+| XF86AudioLowerVolume | Volume down |
+| XF86AudioMute | Toggle mute |
+| XF86MonBrightnessUp | Brightness up |
+| XF86MonBrightnessDown | Brightness down |
+
+---
+
+### Gestures
+- **3-finger horizontal swipe** — switch workspaces
 
 ## Screenshots
 ![Desktop](screenshots/desktop.png)
