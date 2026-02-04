@@ -1,0 +1,66 @@
+@define-color bg        rgba(15, 18, 18, 0.88);   /* main panel */
+@define-color bg2       rgba(30, 34, 34, 0.95);   /* input + entries */
+@define-color text      rgba(235, 235, 235, 0.95);
+@define-color accent    rgba(230, 230, 230, 0.92); /* soft white highlight */
+@define-color text_sel  rgba(20, 20, 20, 0.95);    /* dark text on highlight */
+
+* {
+  all: unset;
+  font-family: "CodeNewRoman Nerd Font Mono", monospace;
+  font-size: 17px;
+}
+
+window {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: @bg;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+}
+
+#outer-box {
+  padding: 6px;
+}
+
+/* Search bar */
+#input {
+  margin: 6px 8px 14px 8px;
+  padding: 14px 16px;
+  border-radius: 14px;
+  background-color: @bg2;
+  color: @text;
+}
+
+#input image {
+  padding-right: 10px;
+  color: @text;
+  opacity: 0.9;
+}
+
+/* Results */
+#scroll {
+  padding: 4px 8px 8px 8px;
+}
+
+/* Entries */
+#entry {
+  padding: 10px 14px;
+  margin: 3px 4px;
+  border-radius: 12px;
+  background-color: @bg2;
+  color: @text;
+}
+
+/* Selected entry */
+#entry:selected {
+  background-color: @accent;
+}
+
+/* Text */
+#text {
+  color: @text;
+}
+
+/* Selected text */
+#entry:selected #text {
+  color: @text_sel;
+}

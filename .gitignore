@@ -1,0 +1,17 @@
+# caches & junk
+.cache/
+*.log
+*.bak
+*.swp
+
+# secrets / tokens (just in case)
+*token*
+*secret*
+
+# OS / file manager noise
+.DS_Store
+Thumbs.db
+
+# editor noise
+.vscode/
+.idea/
