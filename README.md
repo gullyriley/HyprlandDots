@@ -23,4 +23,7 @@ My personal Arch Linux setup using **Hyprland** with a minimal, Wayland-first wo
 - Hardware: MacBook Air 2017 (Intel)
 
 ## Screenshots
-_(add later)_
+![Desktop](screenshots/desktop.png)
+![Waybar](screenshots/waybar.png)
+![Wofi](screenshots/wofi.png)
+![ArchBTW](screenshots/archbtw.png)
